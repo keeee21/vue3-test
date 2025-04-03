@@ -1,0 +1,27 @@
+# 🚀 開発環境セットアップ手順
+
+## ✅ 前提条件
+
+- Node.js: `v22.14.0`
+- パッケージマネージャー: `pnpm`
+
+```bash
+node -v
+# v22.14.0
+
+## プロジェクト作成
+pnpm create vue@latest
+
+// 下記を選択
+- ✅ TypeScript
+- ✅ Vue Router
+- ✅ Pinia
+- ✅ Vitest
+- ✅ ESLint
+- ✅ Prettier
+```
+
+下記を追加installした.
+```
+pnpm add -D globals eslint-plugin-import axios
+```
